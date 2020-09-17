@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AR_lab_large</string>
+    <string name="layout_renderable_text">hello world!</string>
+    <string name="layout_renderable_button">this is a button</string>
 </resources>
