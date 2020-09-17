@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
                 this,
                 Uri.parse("https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf"),
                 RenderableSource.SourceType.GLTF2)
-                .setScale(0.2f)
+                .setScale(0.8f)
                 .setRecenterMode(RenderableSource.RecenterMode.ROOT)
                 .build())
             .setRegistryId("Roope")
