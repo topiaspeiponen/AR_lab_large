@@ -2,4 +2,8 @@
     <string name="app_name">AR_lab_large</string>
     <string name="layout_renderable_text">hello world!</string>
     <string name="layout_renderable_button">this is a button</string>
+    <string name="text_object">Text object</string>
+    <string name="button_object">Button object</string>
+    <string name="avocado">Avocado</string>
+    <string name="post">Post</string>
 </resources>
