@@ -10,16 +10,11 @@
             "nodes" : [
                 0,
                 1,
-                2,
-                3
+                2
             ]
         }
     ],
     "nodes" : [
-        {
-            "mesh" : 0,
-            "name" : "Cube"
-        },
         {
             "name" : "Light",
             "rotation" : [
@@ -49,7 +44,7 @@
             ]
         },
         {
-            "mesh" : 1,
+            "mesh" : 0,
             "name" : "tolppa_exp",
             "rotation" : [
                 -0.02605554088950157,
@@ -60,25 +55,6 @@
         }
     ],
     "materials" : [
-        {
-            "doubleSided" : true,
-            "emissiveFactor" : [
-                0,
-                0,
-                0
-            ],
-            "name" : "Material",
-            "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.4000000059604645
-            }
-        },
         {
             "doubleSided" : true,
             "emissiveFactor" : [
@@ -99,7 +75,7 @@
     ],
     "meshes" : [
         {
-            "name" : "Cube",
+            "name" : "tolppa_exp",
             "primitives" : [
                 {
                     "attributes" : {
@@ -109,20 +85,6 @@
                     },
                     "indices" : 3,
                     "material" : 0
-                }
-            ]
-        },
-        {
-            "name" : "tolppa_exp",
-            "primitives" : [
-                {
-                    "attributes" : {
-                        "POSITION" : 4,
-                        "NORMAL" : 5,
-                        "TEXCOORD_0" : 6
-                    },
-                    "indices" : 7,
-                    "material" : 1
                 }
             ]
         }
@@ -143,40 +105,6 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 24,
-            "max" : [
-                1,
-                1,
-                1
-            ],
-            "min" : [
-                -1,
-                -1,
-                -1
-            ],
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 1,
-            "componentType" : 5126,
-            "count" : 24,
-            "type" : "VEC3"
-        },
-        {
-            "bufferView" : 2,
-            "componentType" : 5126,
-            "count" : 24,
-            "type" : "VEC2"
-        },
-        {
-            "bufferView" : 3,
-            "componentType" : 5123,
-            "count" : 36,
-            "type" : "SCALAR"
-        },
-        {
-            "bufferView" : 4,
-            "componentType" : 5126,
             "count" : 2303,
             "max" : [
                 9.497611045837402,
@@ -191,19 +119,19 @@
             "type" : "VEC3"
         },
         {
-            "bufferView" : 5,
+            "bufferView" : 1,
             "componentType" : 5126,
             "count" : 2303,
             "type" : "VEC3"
         },
         {
-            "bufferView" : 6,
+            "bufferView" : 2,
             "componentType" : 5126,
             "count" : 2303,
             "type" : "VEC2"
         },
         {
-            "bufferView" : 7,
+            "bufferView" : 3,
             "componentType" : 5123,
             "count" : 8025,
             "type" : "SCALAR"
@@ -212,49 +140,29 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 288,
+            "byteLength" : 27636,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 288,
-            "byteOffset" : 288
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 192,
-            "byteOffset" : 576
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 72,
-            "byteOffset" : 768
-        },
-        {
-            "buffer" : 0,
             "byteLength" : 27636,
-            "byteOffset" : 840
-        },
-        {
-            "buffer" : 0,
-            "byteLength" : 27636,
-            "byteOffset" : 28476
+            "byteOffset" : 27636
         },
         {
             "buffer" : 0,
             "byteLength" : 18424,
-            "byteOffset" : 56112
+            "byteOffset" : 55272
         },
         {
             "buffer" : 0,
             "byteLength" : 16050,
-            "byteOffset" : 74536
+            "byteOffset" : 73696
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 90588,
-            "uri" : "tolppa.bin"
+            "byteLength" : 89748,
+            "uri" : "stone_post.bin"
         }
     ]
 }

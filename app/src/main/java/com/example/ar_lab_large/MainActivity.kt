@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
                 this,
                 Uri.parse("https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf"),
                 RenderableSource.SourceType.GLTF2)
-                .setScale(0.2f)
+                .setScale(3f)
                 .setRecenterMode(RenderableSource.RecenterMode.ROOT)
                 .build())
             .setRegistryId("Roope")
@@ -104,9 +104,9 @@ class MainActivity : AppCompatActivity() {
         val renderableFuture2 = ModelRenderable.builder()
             .setSource(this, RenderableSource.builder().setSource(
                 this,
-                Uri.parse("orig/tolppa.gltf"),
+                Uri.parse("orig/stone_post.gltf"),
                 RenderableSource.SourceType.GLTF2)
-                .setScale(0.2f)
+                .setScale(0.05f)
                 .setRecenterMode(RenderableSource.RecenterMode.ROOT)
                 .build())
             .setRegistryId("Tolppa")
